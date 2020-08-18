@@ -9,7 +9,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 
 @SpringBootApplication
-//@ComponentScan(basePackages = {"guru.springframework.services", "guru.springframework"})
 public class DiDemoApplication {
 
 	public static void main(String[] args) {
