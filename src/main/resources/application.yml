@@ -7,3 +7,11 @@ guru:
     password: somepass
     url: someUrl
 
+---           #Indicates a file separator inside YAML
+spring:
+  profiles: es #The spring profile overrides the other one
+guru:
+  jms:
+    username: Nombre de usuario de JMS
+    password: alguien pasa
+    url: someUrl **In**Spanish
