@@ -1,0 +1,42 @@
+# this is a comment
+# DO NOT USE TABS
+# Start with a double space
+
+name: John
+
+names: #This is a list
+  - John
+  - Paul
+  - Ringo
+
+pound_sign: "£"
+
+book:
+    author: Joe Buck
+    publisher: Random House
+
+truth: yes    #Boolean
+
+another_truth: True      #Another Boolean
+
+more_true: true          #Another Boolean
+
+false: no                #No, false, FALSE all evaluate to false
+
+string_val: "This is it's quote"                  #Yaml does like the ' surround with "
+
+colon_string: "my courses: one two three"         # Yaml doesn't like the colon surround with "
+
+include_new_lines: |           # the pipe character says read all lines
+  jjj ff dgdgs
+  ggfdg gggg tttt
+  ghqwer ty ui op
+
+ignore_new_lines: >             # the > character says read as one line
+  this is
+  just one long
+  string
+
+
+
+

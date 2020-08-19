@@ -1,0 +1,9 @@
+# Using Spring boot with YAML
+# DO NOT USE TABS
+# Spacing is important, each line is indented by two spaces
+guru:
+  jms:
+    username: JMS Username
+    password: somepass
+    url: someUrl
+
